@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Planner Antares</title>
+	<link rel="shortcut icon" href="img/ico.ico">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+
+</head>
+
+
+<body>
+
+<script  language=JavaScript> 
+function go(){
+
+if (document.form.password.value=='balarco2020' && document.form.login.value=='edson.otero@balarco.com.mx'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+</script> 
+
+
+
+
+
+
+<!-- Login -->
+
+<div class="container" style="transform: translateY(40%);" >
+	<div class="row">
+
+
+		<div class="col-md-12" align="center">
+			<img src="img/antares-logotipo.png" class="img-fluid logotipo">
+		</div>
+
+		<div class="col-sm-1 col-md-2"></div>
+		<div class="col-sm-10 col-md-8">
+
+
+			<div class="pink-login">
+				<form name=form action="home.html">
+				  
+				  <div class="form-group row">
+				    <!-- <label for="staticEmail"></label> -->
+				    <div class="col-sm-12">
+				    	<p class="text-center data-label">USUARIO</p>
+				      <input type="text" class="form-control text-center" placeholder="" name="usuario" value="" required>
+				    </div>
+				  </div>
+				  <div class="form-group row">
+				    <!-- <label for="inputPassword"></label> -->
+				    <div class="col-sm-12"><p class="text-center data-label">CONTRASEÑA</p>
+				      <input type="password" class="form-control text-center" placeholder="" name="password" required>
+				    </div>
+				  </div>
+				  <button onclick=go() type="submit" class="enviar rounded mx-auto d-block" value="Acceder">ENTRAR</button>
+				</form>
+			</div>
+
+		</div>
+		<div class="col-sm-1 col-md-8"></div>
+	</div>
+</div>
+
+
+
+
+<!-- 		Scripts			 -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>
