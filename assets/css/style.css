@@ -839,6 +839,10 @@ contacto */
     color: #E81123;
   }
 
-
+@media(max-width: 600px){
+  .btn{
+    margin-right: -50px;
+  }
+}
 
 
